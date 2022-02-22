@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(#0065FD 50%,#002153 100%);
+    height: 100vh; 
+    text-align: center;
+    justify-content: center;
+}
+
+.logo {
+    animation: logo 2s ease-out;
+   
+}
+
+@keyframes logo {
+    from {
+        opacity: 0;
+        transform: translateX( -100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX( 0px);
+    }
+}
+
+.o {
+    font-family: pusab,cursive;
+    font-size: 50px ;
+    color: rgb(255, 255, 255);
+    animation: o 0.2s ease-out;
+}
+
+@keyframes o {
+    from {
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+        
+    }
+}
+
+
+.m {
+    font-family: pusab,cursive;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0  50px 0px white;
+    display: inline-block;
+    background-color: white;
+}
+
+.u {
+    font-family: pusab,cursive;
+    font-size: 50px;
+}
+
+.poo {
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border: 0;
+    font-family: pusab,cursive;
+    padding: 12px 50px;
+    transition: 0.2s;
+}
+
+.poo:hover {
+    transform: skewX( -2deg);
+    font-size: 31px;
+    background-color: rgb(255, 255, 169);
+}
+
+.download {
+    background-color: #002E73;
+    transform: skewX(2deg);
+    display: inline-block;
+    padding: 12px 50px;
+}
+
+.tyfon {
+    text-decoration: none;
+    color: black;
+}
+
+.u {
+    font-family: pusab,cursive;
+    font-size: 30px ;
+    color: rgb(255, 255, 255);
+    animation: o 0.2s ease-out;
+}
+
+.h {
+    background-color: #002E73;
+    transform: skewX(2deg);
+}
+
+.ui {
+    width: 500px;
+    height: 250px;
+}
+
+.az {
+    background-color: #0065FD;
+    display: inline-block;
+    padding: 10px 10px;
+}
